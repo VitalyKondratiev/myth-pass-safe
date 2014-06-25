@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="MythPassSafe 0.9"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MinorVersionNr Value="9"/>
+      <RevisionNr Value="1"/>
+      <BuildNr Value="3"/>
+      <Language Value="0419"/>
+      <StringTable CompanyName="Kondratiev Vitaliy" FileDescription="Хранилище паролей" LegalCopyright="Mythbuster47" ProductName="MythPassSafe" ProductVersion="0.9"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="uniqueinstance_package"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SynEdit"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="myth_pass_safe.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainUnit"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="functionsunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="functionsUnit"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="questionsunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="questionsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="questionsUnit"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="editingunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="editingForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="editingUnit"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="addsiteunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="addSiteForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="addSiteUnit"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="deletesiteunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="deleteSiteForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="deleteSiteUnit"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="changesiteunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="changeSiteForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="changeSiteUnit"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="addloginunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="addLoginForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="addLoginUnit"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="deleteloginunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="deleteLoginForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="deleteLoginUnit"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="changeloginunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="changeLoginForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="changeLoginUnit"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="appsettingsunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="appSettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="appSettingsUnit"/>
+      </Unit11>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="myth_pass_safe"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <TargetOS Value="win32"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
